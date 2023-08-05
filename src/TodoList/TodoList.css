@@ -1,0 +1,6 @@
+.todoList{
+    border: 3px solid rgba(196, 147, 255, 0.6);
+    width: 50%;
+    border-radius: 8px;
+    padding: 24px;
+}

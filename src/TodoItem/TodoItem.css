@@ -1,0 +1,37 @@
+.todoItem{
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(8, 0, 79, 0.5);
+    margin: 24px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.todoItem:hover{
+    transform: scale(1.01);
+    transition: 0.4s;
+}
+
+.todoItem-span, .todoItem-p{
+    font-weight: bold;
+}
+
+.todoItem-span{
+    cursor: pointer;
+}
+
+.closeTodo:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.todoItem-check{
+    color: green;
+}
+
+.todoItem-p--check{
+    text-decoration: line-through;
+}

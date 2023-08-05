@@ -1,0 +1,12 @@
+.main-title{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    padding: 48px;
+    font-weight: lighter;
+}
+
+.main-title span{
+    color: #08004F;
+    font-weight: bold;
+}

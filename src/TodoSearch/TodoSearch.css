@@ -1,0 +1,19 @@
+.searchBar {
+    width: 50%;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #DEB2FF;
+    -webkit-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.4);
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.4);
+    margin: 24px 0;
+}
+
+.searchBar::placeholder{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.searchBar:focus{
+    outline-color: rgba(8, 0, 79, 0.5);
+}
